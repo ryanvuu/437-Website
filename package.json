@@ -1,0 +1,23 @@
+{
+  "name": "437-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanvuu/437-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanvuu/437-Website/issues"
+  },
+  "homepage": "https://github.com/ryanvuu/437-Website#readme",
+  "description": "",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

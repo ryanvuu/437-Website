@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background-page);
+  color: var(--color-text);
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  background-color: var(--color-background-header);
+  color: var(--color-text-heading-1);
+}
+
+.heading-nav {
+  display: flex;
+  align-items: baseline;
+}
+
+#nav-links {
+  display: flex;
+  align-items: baseline; 
+  gap: 1rem;
+}
+
+#menu-button {
+  display: none;
+  margin: 0 1rem 1rem 1rem;
+  padding: 0.5rem;
+  font-family: "Nunito", sans-serif;
+  color: var(--color-text-menu-button);
+}
+
+label {
+  margin-right: 1rem;
+}
+
+a {
+  color: var(--color-link);
+}
+
+h2, h3, h4, h5, h6 {
+  margin: var(--margin-default);
+  font-family: "Philosopher", serif;
+}
+
+h1 {
+  padding: 1rem;
+  font-family: "Philosopher", serif;
+}
+
+
+.portrait {
+  margin: var(--margin-default);
+  width: 14rem;
+  height: 16.625rem;
+}
+
+dl {
+  margin: 0 var(--margin-default);;
+}
+
+dd {
+  margin: 0 2rem;
+}
+
+p {
+  margin: 0 var(--margin-default);;
+}
+
+ul {
+  margin: 0 4rem;
+}
+
+.contact-container > dl {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.about-container {
+  margin: var(--margin-default) 0;
+}
+
+.one-man-img {
+  margin: var(--margin-default);
+}
+
+.one-man-container {
+  max-width: 26rem;
+  text-align: center;
+}
+
+.one-man-container > h2 {
+  margin-bottom: 0rem;  
+}
+
+.home-button {
+  margin: var(--margin-default);
+}
+
+/* mobile only */
+@media (max-width: 700px) {
+  header {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  .heading-nav {
+    flex-direction: column;
+  }
+
+  .heading-nav > h1 {
+    padding: 1rem;
+  }
+
+  #nav-links {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  #menu-button {
+    display: block;
+  }
+
+  #nav-links.hidden {
+    display: none;
+  }
+
+  .menu-dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    margin-right: 0;
+  }
+}
+

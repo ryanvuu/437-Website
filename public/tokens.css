@@ -1,0 +1,18 @@
+:root {
+  --color-text: #274429;
+  --color-text-heading-1: #06512D;
+  --color-background-page: #A0E683;
+  --color-background-header: #7EC55F;
+  --color-link: #7C1828;
+  --margin-default: 1rem;
+}
+
+body.dark-mode {
+  --color-text: #ececec;
+  --color-text-heading-1: #b6b6b6;
+  --color-background-page: #393939;
+  --color-background-header: #252525;
+  --color-link: #e5df78;
+  --margin-default: 1rem;
+  --color-text-menu-button: rgb(27, 27, 27);
+}
